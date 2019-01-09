@@ -1,0 +1,17 @@
+/* Set every element to normal with no paddings of margins */
+*,
+*::after,
+*::before cd {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+
+  font-size: 62.5%; /* This relative to the browsers default font size (most of the time 16px) */
+}
+
+body {
+  box-sizing: border-box;
+}
