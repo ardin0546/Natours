@@ -1,6 +1,4 @@
 .u-center-text {text-align: center;}
 
-@for $i from 1 through 10 {
-  // Margin bottom
-  .u-margin-bottom-#{$i} {margin-bottom: #{$i}rem;}
-}
+.u-margin-bottom-small {margin-bottom: 1rem;}
+.u-margin-bottom-big {margin-bottom: 8rem;}
