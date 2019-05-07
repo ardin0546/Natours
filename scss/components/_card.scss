@@ -47,6 +47,22 @@
     transform: rotateY(0deg);
   }
 
+  &__image {
+    background-color: red;
+    height: 20rem;
+    position: relative;
+    text-align: right;
+
+    &--heading {
+      margin: 0;
+      background-color: yellow;
+      position: absolute;
+      right: 2rem;
+      bottom: 0;
+      font-size: 2.5rem;
+    }
+  }
+
   &__price {
     &--box {
       position: absolute;
